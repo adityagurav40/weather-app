@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Weather Api</h1>
+    <button type="button" id="fetch-btn">Fetch Data</button>
+    <div class="coordinatecontainer">
+        <span>Lat:</span>
+        <span>Long:</span>
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+        </iframe>
+    </div>
+
+    <div class="weather-container">
+        <h1>Weather Data</h1>
+        <div class="details">
+            <span id="loc-detail">Location:</span>
+            <div class="pos">
+                <span id="1">Lat:</span>
+                <span id="2">Long:</span>
+            </div>
+            <span id="temp-detail">TimeZone:</span>
+            <span id="tz-detail">TimeZone:</span>
+            <span id="ws-detail">Wind Speed:</span>
+            <span id="pr-detail">Pressure:</span>
+            <span id="hum-detail">Humidity:</span>
+            <span id="wd-detail">Wind Direction:</span>
+            <span id="uvi-detail">UV Index:</span>
+            <span id="fl-detail">Feels Like:</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
